@@ -279,8 +279,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Agility"] = "^%+?# к ловкости$",
 		["AllStats"] = "^%+?# ко всем характеристикам$",
 		["Ap"] = "^%+?# к силе атаки$",
-		--[[Translation test: https://classic.wowhead.com/item=17713/blackstone-ring --]]
-		["Ap2"] = "^Если на персонаже: Увеличивает силу атаки на %+#%.$",
+		["Ap2"] = "^Если на персонаже: Увеличивает силу атаки на #%.$",
 		--[[Translation missing --]]
 		["ArcaneResist"] = "^%+?# Arcane Resistance$",
 		--[[Translation missing --]]
@@ -444,7 +443,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Wand"] = "^Жезл$",
 		["Warforged"] = "^Предмет закален в бою$",
 		["Warglaives"] = "^Боевые клинки$",
-		["WeaponDamage"] = "^Урон: # %- #$",
+		["WeaponDamage"] = "^Урон: #%-#$",
 		["WeaponDamageArcane"] = "^%+?# %- # ед%. урона от тайной магии$",
 		["WeaponDamageArcaneExact"] = "^%+?# ед%. урона от тайной магии$",
 		["WeaponDamageEnchantment"] = "^%+?# к урону оружием$",
