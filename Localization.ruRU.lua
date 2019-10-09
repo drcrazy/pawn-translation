@@ -304,8 +304,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["CooldownRemaining"] = "^Времени до восстановления:",
 		["Crit"] = "^%+?# к критическому удару$",
 		["Crit2"] = "^%+?# к показателю критического удара$",
-		--[[Translation missing --]]
-		["CritPercent"] = "^Equip: Improves your chance to get a critical strike by #%%%.$",
+		["CritPercent"] = "^Если на персонаже: Увеличение вероятности нанесения критического урона на #%%%.$",
 		["Crossbow"] = "^Арбалет$",
 		["Dagger"] = "^Кинжал$",
 		--[[Translation missing --]]
