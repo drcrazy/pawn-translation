@@ -281,8 +281,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Ap"] = "^%+?# к силе атаки$",
 		["Ap2"] = "^Если на персонаже: Увеличивает силу атаки на #%.$",
 		["ArcaneResist"] = "^Устойчивость: %+# Тайная магия$",
-		--[[Translation missing --]]
-		["ArcaneSpellDamage"] = "^%+# Arcane Spell Damage$",
+		["ArcaneSpellDamage"] = "^%+# к урону от заклинаний тайной магии$",
 		--[[Translation missing --]]
 		["ArcaneSpellDamage2"] = "^Equip: Increases damage done by Arcane spells and effects by up to #%.$",
 		["Armor"] = "^Броня: %+?#$",
@@ -330,15 +329,13 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		--[[Translation missing --]]
 		["FeralAp"] = "^Equip: %+# Attack Power in Cat, Bear, and Dire Bear forms only%.$",
 		["FireResist"] = "^Устойчивость: %+# огонь$",
-		--[[Translation missing --]]
-		["FireSpellDamage"] = "^%+# Fire Spell Damage$",
+		["FireSpellDamage"] = "^%+# к урону от заклинаний огня$",
 		--[[Translation missing --]]
 		["FireSpellDamage2"] = "^Equip: Increases damage done by Fire spells and effects by up to #%.$",
 		["FistWeapon"] = "^Кистевое$",
 		["Flexible"] = "^Гибкий$",
 		["FrostResist"] = "^Устойчивость: %+# лед$",
-		--[[Translation missing --]]
-		["FrostSpellDamage"] = "^%+# Frost Spell Damage$",
+		["FrostSpellDamage"] = "^%+# к урону от заклинаний магии льда$",
 		--[[Translation missing --]]
 		["FrostSpellDamage2"] = "^Equip: Increases damage done by Frost spells and effects by up to #%.$",
 		["Gun"] = "^Огнестрельное$",
@@ -384,8 +381,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["MultiStatSeparator1"] = "и",
 		["Multistrike"] = "^%+# к многократной атаке$",
 		["NatureResist"] = "^Устойчивость: %+# природа$",
-		--[[Translation missing --]]
-		["NatureSpellDamage"] = "^%+# Nature Spell Damage$",
+		["NatureSpellDamage"] = "^%+# к урону от сил природы$",
 		--[[Translation missing --]]
 		["NatureSpellDamage2"] = "^Equip: Increases damage done by Nature spells and effects by up to #%.$",
 		["NormalizationEnchant"] = "^Чары: (.*)$",
@@ -404,8 +400,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["ScopeCrit"] = "^Scope %(%+# Critical Strike%)$",
 		["ScopeRangedCrit"] = "^%+?# Ranged Critical Strike$",
 		["ShadowResist"] = "^Устойчивость: %+# тьма$",
-		--[[Translation missing --]]
-		["ShadowSpellDamage"] = "^%+# Shadow Spell Damage$",
+		["ShadowSpellDamage"] = "^%+# к урону от заклинаний темной магии$",
 		--[[Translation missing --]]
 		["ShadowSpellDamage2"] = "^Equip: Increases damage done by Shadow spells and effects by up to #%.$",
 		["Shield"] = "^Щит$",
