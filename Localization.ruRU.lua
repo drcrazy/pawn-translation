@@ -280,8 +280,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["AllStats"] = "^%+?# ко всем характеристикам$",
 		["Ap"] = "^%+?# к силе атаки$",
 		["Ap2"] = "^Если на персонаже: Увеличивает силу атаки на #%.$",
-		--[[Translation missing --]]
-		["ArcaneResist"] = "^%+?# Arcane Resistance$",
+		["ArcaneResist"] = "^Устойчивость: %+# Тайная магия$",
 		--[[Translation missing --]]
 		["ArcaneSpellDamage"] = "^%+# Arcane Spell Damage$",
 		--[[Translation missing --]]
@@ -330,16 +329,14 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Equip"] = "Если на персонаже:",
 		--[[Translation missing --]]
 		["FeralAp"] = "^Equip: %+# Attack Power in Cat, Bear, and Dire Bear forms only%.$",
-		--[[Translation missing --]]
-		["FireResist"] = "^%+?# Fire Resistance$",
+		["FireResist"] = "^Устойчивость: %+# огонь$",
 		--[[Translation missing --]]
 		["FireSpellDamage"] = "^%+# Fire Spell Damage$",
 		--[[Translation missing --]]
 		["FireSpellDamage2"] = "^Equip: Increases damage done by Fire spells and effects by up to #%.$",
 		["FistWeapon"] = "^Кистевое$",
 		["Flexible"] = "^Гибкий$",
-		--[[Translation missing --]]
-		["FrostResist"] = "^%+?# Frost Resistance$",
+		["FrostResist"] = "^Устойчивость: %+# лед$",
 		--[[Translation missing --]]
 		["FrostSpellDamage"] = "^%+# Frost Spell Damage$",
 		--[[Translation missing --]]
@@ -386,8 +383,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["MultiStatHeading"] = "^Различные характеристики$",
 		["MultiStatSeparator1"] = "и",
 		["Multistrike"] = "^%+# к многократной атаке$",
-		--[[Translation missing --]]
-		["NatureResist"] = "^%+?# Nature Resistance$",
+		["NatureResist"] = "^Устойчивость: %+# природа$",
 		--[[Translation missing --]]
 		["NatureSpellDamage"] = "^%+# Nature Spell Damage$",
 		--[[Translation missing --]]
@@ -407,8 +403,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Scope"] = "^Scope %(%+# Damage%)$",
 		["ScopeCrit"] = "^Scope %(%+# Critical Strike%)$",
 		["ScopeRangedCrit"] = "^%+?# Ranged Critical Strike$",
-		--[[Translation missing --]]
-		["ShadowResist"] = "^%+?# Shadow Resistance$",
+		["ShadowResist"] = "^Устойчивость: %+# тьма$",
 		--[[Translation missing --]]
 		["ShadowSpellDamage"] = "^%+# Shadow Spell Damage$",
 		--[[Translation missing --]]
