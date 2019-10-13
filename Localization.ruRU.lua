@@ -288,12 +288,9 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Avoidance"] = "^%+# к избеганию$",
 		["Axe"] = "^Топор$",
 		["BagSlots"] = "^%d+ [Яя]чеек .+$",
-		--[[Translation missing --]]
-		["Block"] = "^%+?([-%d%.,]+) Block$",
-		--[[Translation missing --]]
-		["BlockPercent"] = "^Equip: Increases your chance to block attacks with a shield by #%%%.$",
-		--[[Translation missing --]]
-		["BlockValue"] = "^Equip: Increases the block value of your shield by #%.$",
+		["Block"] = "^Блокирование: #$",
+		["BlockPercent"] = "^Если на персонаже: Увеличение рейтинга блока щитом на #%%%,$",
+		["BlockValue"] = "^Если на персонаже: Увеличение показателя блока щитом на # ед%.$",
 		["Bow"] = "^Лук$",
 		["ChanceOnHit"] = "Возможно при попадании:",
 		["Charges"] = "^.+ зарядов?$",
