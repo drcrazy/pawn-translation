@@ -282,8 +282,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Ap2"] = "^Если на персонаже: Увеличивает силу атаки на #%.$",
 		["ArcaneResist"] = "^Устойчивость: %+# Тайная магия$",
 		["ArcaneSpellDamage"] = "^%+# к урону от заклинаний тайной магии$",
-		--[[Translation missing --]]
-		["ArcaneSpellDamage2"] = "^Equip: Increases damage done by Arcane spells and effects by up to #%.$",
+		["ArcaneSpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами тайной магии, на # ед%.$",
 		["Armor"] = "^Броня: %+?#$",
 		["Armor2"] = "^%+?# к броне$",
 		["Avoidance"] = "^%+# к избеганию$",
@@ -330,14 +329,13 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["FeralAp"] = "^Equip: %+# Attack Power in Cat, Bear, and Dire Bear forms only%.$",
 		["FireResist"] = "^Устойчивость: %+# огонь$",
 		["FireSpellDamage"] = "^%+# к урону от заклинаний огня$",
-		--[[Translation missing --]]
-		["FireSpellDamage2"] = "^Equip: Increases damage done by Fire spells and effects by up to #%.$",
+		["FireSpellDamage2"] = "^Если на персонаже: Увеличение наносимого урона от заклинаний и эффектов огня не более чем на # ед%.$",
 		["FistWeapon"] = "^Кистевое$",
 		["Flexible"] = "^Гибкий$",
 		["FrostResist"] = "^Устойчивость: %+# лед$",
 		["FrostSpellDamage"] = "^%+# к урону от заклинаний магии льда$",
 		--[[Translation missing --]]
-		["FrostSpellDamage2"] = "^Equip: Increases damage done by Frost spells and effects by up to #%.$",
+		["FrostSpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами льда, на # ед%.$",
 		["Gun"] = "^Огнестрельное$",
 		["Haste"] = "^%+?# к скорости$",
 		["Haste2"] = "^%+?# к показателю скорости$",
@@ -359,8 +357,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Hit2"] = "^UNUSED$",
 		--[[Translation missing --]]
 		["HolySpellDamage"] = "^%+# Holy Spell Damage$",
-		--[[Translation missing --]]
-		["HolySpellDamage2"] = "^Equip: Increases damage done by Holy spells and effects by up to #%.$",
+		["HolySpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами светлой магии, на # ед%.$",
 		["Hp5"] = "^Восстанавливает # здоровья каждые 5 сек%.$",
 		["Hp52"] = "^Восстанавливает # здоровья за 5 сек%.$",
 		["Hp53"] = "^%+?# [зЗ]доровья [кК]аждые 5 [сС]ек%.?$",
@@ -382,8 +379,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Multistrike"] = "^%+# к многократной атаке$",
 		["NatureResist"] = "^Устойчивость: %+# природа$",
 		["NatureSpellDamage"] = "^%+# к урону от сил природы$",
-		--[[Translation missing --]]
-		["NatureSpellDamage2"] = "^Equip: Increases damage done by Nature spells and effects by up to #%.$",
+		["NatureSpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами сил природы, на # ед%.$",
 		["NormalizationEnchant"] = "^Чары: (.*)$",
 		["Parry"] = "^%+?# к парированию$",
 		["Parry2"] = "^%+?# к показателю парирования$",
@@ -401,8 +397,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["ScopeRangedCrit"] = "^%+?# Ranged Critical Strike$",
 		["ShadowResist"] = "^Устойчивость: %+# тьма$",
 		["ShadowSpellDamage"] = "^%+# к урону от заклинаний темной магии$",
-		--[[Translation missing --]]
-		["ShadowSpellDamage2"] = "^Equip: Increases damage done by Shadow spells and effects by up to #%.$",
+		["ShadowSpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами темной магии, на # ед%.$",
 		["Shield"] = "^Щит$",
 		["SocketBonusPrefix"] = "При соответствии цвета:",
 		["Speed"] = "^Скорость #$",
