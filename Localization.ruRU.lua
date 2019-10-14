@@ -83,7 +83,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		--[[Translation missing --]]
 		["ApInfo"] = "Attack Power.  Increases the damage of physical attacks.  Does not include attack power gained from strength and agility.",
 		--[[Translation missing --]]
-		["ArcaneResistInfo"] = "Arcane Resistance.  Reduces the damage taken from arcane-based attacks.",
+		["ArcaneResistInfo"] = "Повышает устойчивость персонажа к заклинаниям, навыкам и атакам, в ходе которых используется тайнкая магия.",
 		--[[Translation missing --]]
 		["ArcaneSpellDamage"] = "Arcane Damage",
 		--[[Translation missing --]]
@@ -301,14 +301,12 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["CritPercent"] = "^Если на персонаже: Увеличение вероятности нанесения критического урона на #%%%.$",
 		["Crossbow"] = "^Арбалет$",
 		["Dagger"] = "^Кинжал$",
-		--[[Translation missing --]]
-		["DefenseSkill"] = "^Equip: Increased Defense %+#%.$",
+		["DefenseSkill"] = "^Если на персонаже: Увеличение рейтинга защиты на # ед%.$",
 		["DefenseSkillSimple"] = "^%+?# Defense$",
 		["DisenchantingRequires"] = "^Требуется",
 		["Dodge"] = "^%+?#%%? к уклонению$",
 		["Dodge2"] = "^%+?#%%? к показателю уклонения$",
-		--[[Translation missing --]]
-		["DodgePercent"] = "^Equip: Increases your chance to dodge an attack by #%%%.$",
+		["DodgePercent"] = "^Если на персонаже: Увеличение рейтинга уклонения на #%%%.$",
 		["Dps"] = "^%(# ед%. урона в секунду%)$",
 		["DpsAdd"] = "^Добавляет # ед%. урона в секунду$",
 		["Duration"] = "^Срок действия:",
@@ -322,8 +320,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["EnchantmentPyriumWeaponChain"] = "^Колчедановая цепь для оружия$",
 		["EnchantmentTitaniumWeaponChain"] = "^Титановая цепь для оружия$",
 		["Equip"] = "Если на персонаже:",
-		--[[Translation missing --]]
-		["FeralAp"] = "^Equip: %+# Attack Power in Cat, Bear, and Dire Bear forms only%.$",
+		["FeralAp"] = "^Если на персонаже: Увеличивает силу атаки на # ед%. в облике кошки, медведя и лютого медведя%.$",
 		["FireResist"] = "^Устойчивость: %+# огонь$",
 		["FireSpellDamage"] = "^%+# к урону от заклинаний огня$",
 		["FireSpellDamage2"] = "^Если на персонаже: Увеличение наносимого урона от заклинаний и эффектов огня не более чем на # ед%.$",
@@ -331,16 +328,13 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Flexible"] = "^Гибкий$",
 		["FrostResist"] = "^Устойчивость: %+# лед$",
 		["FrostSpellDamage"] = "^%+# к урону от заклинаний магии льда$",
-		--[[Translation missing --]]
 		["FrostSpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами льда, на # ед%.$",
 		["Gun"] = "^Огнестрельное$",
 		["Haste"] = "^%+?# к скорости$",
 		["Haste2"] = "^%+?# к показателю скорости$",
 		["HaventCollectedAppearance"] = "^У вас еще нет такой модели.$",
-		--[[Translation missing --]]
-		["Healing"] = "^%+# Healing Spells$",
-		--[[Translation missing --]]
-		["Healing2"] = "^Equip: Increases healing done by spells and effects by up to #%.$",
+		["Healing"] = "^%+# к исцеляющим заклинаниям$",
+		["Healing2"] = "^Если на персонаже: Усиливает исцеление от заклинаний и эффектов максимум на # ед%.$",
 		["HeirloomLevelRange"] = "^Требуется уровень %d+ - (%d+)",
 		["HeirloomXpBoost"] = "^Если на персонаже: Увеличивает количество получаемого опыта на",
 		["HeirloomXpBoost2"] = "^Если на персонаже: Количество опыта, получаемого за убийства монстров и выполнение заданий, увеличено на",
@@ -348,8 +342,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["HeroicElite"] = "^Героический %(элитный%)$",
 		["HeroicThunderforged"] = "^Создано в Кузне Грома %(героич%.%)$",
 		["HeroicWarforged"] = "^Предмет закален в бою %(героич%.%)$",
-		--[[Translation missing --]]
-		["Hit"] = "^Equip: Improves your chance to hit by #%%%.$",
+		["Hit"] = "^Если на персонаже: Вероятность нанесения удара увеличена на #%%%.$",
 		--[[Translation missing --]]
 		["Hit2"] = "^UNUSED$",
 		--[[Translation missing --]]
@@ -368,8 +361,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Mastery2"] = "^%+?# к показателю искусности$",
 		["MetaGemRequirements"] = "|cff%x%x%x%x%x%xТребуется",
 		["MovementSpeed"] = "^%+# к скорости передвижения$",
-		--[[Translation missing --]]
-		["Mp5"] = "^Equip: Restores # mana per 5 sec%.$",
+		["Mp5"] = "^Если на персонаже: Восполнение # ед%. маны раз в 5 сек%.$",
 		["Mp52"] = "^%+?# mana every 5 sec%.$",
 		["MultiStatHeading"] = "^Различные характеристики$",
 		["MultiStatSeparator1"] = "и",
@@ -384,8 +376,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Polearm"] = "^Древковое$",
 		["PvPPower"] = "^%+?# к PvP%-силе$",
 		["RaidFinder"] = "^Поиск рейда$",
-		--[[Translation missing --]]
-		["Rap"] = "^Equip: %+# ranged Attack Power%.$",
+		["Rap"] = "^Если на персонаже: Увеличение силы атаки в дальнем бою на # ед%.$",
 		["Requires2"] = "^Требуемый уровень",
 		["Resilience"] = "^%+?# к PvP%-устойчивости$",
 		["Resilience2"] = "^UNUSED$",
@@ -399,14 +390,11 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["SocketBonusPrefix"] = "При соответствии цвета:",
 		["Speed"] = "^Скорость #$",
 		["Speed2"] = "^UNUSED$",
-		--[[Translation missing --]]
-		["SpellCrit"] = "^Equip: Improves your chance to get a critical strike with spells by ([-%d%.,]+)%%%.$",
+		["SpellCrit"] = "^Если на персонаже: Увеличение рейтинга критического эффекта заклинаний на #%%%.$",
 		--[[Translation missing --]]
 		["SpellDamage"] = "^%+# Spell Damage$",
-		--[[Translation missing --]]
-		["SpellDamage2"] = "^Equip: Increases damage and healing done by magical spells and effects by up to ([-%d%.,]+)%.$",
-		--[[Translation missing --]]
-		["SpellHit"] = "^Equip: Improves your chance to hit with spells by #%%%.$",
+		["SpellDamage2"] = "^Если на персонаже: Увеличение урона и целительного действия магических заклинаний и эффектов не более чем на # ед%.$",
+		["SpellHit"] = "^Если на персонаже: Повышение на #%% рейтинга меткости заклинаний%.$",
 		["SpellPower"] = "^%+?# к силе заклинаний$",
 		["Spirit"] = "^%+?# к духу$",
 		["Staff"] = "^Посох$",
