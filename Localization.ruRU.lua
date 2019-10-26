@@ -314,8 +314,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["Hit"] = "^Если на персонаже: Вероятность нанесения удара увеличена на #%%%.$",
 		--[[Translation missing --]]
 		["Hit2"] = "^UNUSED$",
-		--[[Translation missing --]]
-		["HolySpellDamage"] = "^%+# Holy Spell Damage$",
+		["HolySpellDamage"] = "^%+# к урону от заклинаний светлой магии$",
 		["HolySpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами светлой магии, на # ед%.$",
 		["Hp5"] = "^Восстанавливает # здоровья каждые 5 сек%.$",
 		["Hp52"] = "^Восстанавливает # здоровья за 5 сек%.$",
